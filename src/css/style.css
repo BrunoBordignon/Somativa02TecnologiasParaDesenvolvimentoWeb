@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin:auto;
+}
+
+input{
+    size: 300px;
+}
+
+button{
+    background-color: rgba(191, 240, 191, 0.377);
+
+}
+
+button:hover{
+    background-color: rgba(91, 173, 102, 0.658);
+}
+
+footer {
+    font-size: smaller;
+    color: gray;
+}
